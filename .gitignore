@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Python
+venv/
+.venv/
+backend/venv/
+
+# Environment variables
+.env
+frontend/.env
+backend/.env
+
+# Temporary folder
+frontend 16-54-01-291/
