@@ -1,47 +1,234 @@
-# EcoTrack – Personal Carbon AI Footprint Tracker
+# 🌍 EcoTrack – Personal Carbon AI Footprint Tracker
 
-An internship project to track, analyze, and optimize personal carbon footprint using AI insights.
+EcoTrack is a full-stack AI-powered web application that helps users monitor, analyze, and reduce their daily carbon footprint. The platform allows users to log transportation, food, and household energy activities, calculate carbon emissions, visualize environmental impact through interactive dashboards, and receive AI-powered sustainability recommendations.
 
-## Project Structure
+---
 
-- `frontend/`: React.js + Vite application (port `5173`)
-- `backend/`: Flask API (port `5000`)
+## 🚀 Live Demo
 
-## Getting Started
+🌐 **Frontend:** https://eco-track-theta-ten.vercel.app
 
-### Backend Setup
+🔗 **Backend API:** https://ecotrack-backend-hjpe.onrender.com/api/test
 
-1. Navigate to the `backend/` directory:
-   ```bash
-   cd backend
-   ```
-2. Set up a virtual environment and activate it:
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-   ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Run the Flask application:
-   ```bash
-   python app.py
-   ```
-   The backend will be available at `http://localhost:5000`.
+---
 
-### Frontend Setup
+## 📌 Features
 
-1. Navigate to the `frontend/` directory:
-   ```bash
-   cd frontend
-   ```
-2. Install npm packages:
-   ```bash
-   npm install
-   ```
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
-   The frontend will be available at `http://localhost:5173`.
+- 🔐 Secure User Authentication using Firebase Authentication
+- 🚗 Track transportation carbon emissions
+- 🍽️ Log food consumption habits
+- ⚡ Record household energy usage
+- 📊 Interactive Dashboard with charts and statistics
+- 📈 Carbon emission history tracking
+- 🤖 AI-powered sustainability recommendations using Groq LLaMA 3.3-70B
+- ☁️ Cloud storage using Firebase Firestore
+- 📱 Responsive modern UI with glassmorphism design
+- 🌐 Cloud deployment using Vercel and Render
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+
+- React.js
+- Vite
+- CSS3
+- Chart.js
+- Framer Motion
+- Axios
+
+## Backend
+
+- Flask
+- Python
+- Flask-CORS
+
+## Database
+
+- Firebase Cloud Firestore
+
+## Authentication
+
+- Firebase Authentication
+
+## Artificial Intelligence
+
+- Groq API
+- LLaMA 3.3-70B Versatile
+
+## Deployment
+
+- Vercel
+- Render
+- GitHub
+
+---
+
+# 📂 Project Structure
+
+
+EcoTrack/
+│
+├── backend/
+│ ├── app.py
+│ ├── requirements.txt
+│ └── .env
+│
+├── frontend/
+│ ├── src/
+│ │ ├── components/
+│ │ ├── context/
+│ │ ├── pages/
+│ │ ├── assets/
+│ │ ├── App.jsx
+│ │ ├── firebase.js
+│ │ └── index.css
+│ │
+│ ├── package.json
+│ └── vite.config.js
+│
+├── README.md
+└── .gitignore
+
+
+---
+
+# ⚙️ Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/Anshul-95/EcoTrack.git
+cd EcoTrack
+Backend Setup
+cd backend
+
+Create a virtual environment
+
+python -m venv venv
+
+Activate environment
+
+Windows
+venv\Scripts\activate
+macOS/Linux
+source venv/bin/activate
+
+Install dependencies
+
+pip install -r requirements.txt
+
+Run backend
+
+python app.py
+
+Backend runs on
+
+http://localhost:5000
+Frontend Setup
+cd frontend
+
+Install packages
+
+npm install
+
+Run development server
+
+npm run dev
+
+Frontend runs on
+
+http://localhost:5173
+Environment Variables
+Backend (.env)
+GROQ_API_KEY=your_groq_api_key
+Frontend (.env)
+VITE_FIREBASE_API_KEY=YOUR_KEY
+VITE_FIREBASE_AUTH_DOMAIN=YOUR_DOMAIN
+VITE_FIREBASE_PROJECT_ID=YOUR_PROJECT_ID
+VITE_FIREBASE_STORAGE_BUCKET=YOUR_BUCKET
+VITE_FIREBASE_MESSAGING_SENDER_ID=YOUR_SENDER_ID
+VITE_FIREBASE_APP_ID=YOUR_APP_ID
+VITE_FIREBASE_MEASUREMENT_ID=YOUR_MEASUREMENT_ID
+VITE_API_URL=http://localhost:5000
+Carbon Calculation Modules
+
+The application calculates carbon emissions based on:
+
+🚗 Transportation
+Petrol Car
+Diesel Car
+Bike
+Bus
+Train
+Flight
+Walking
+Cycling
+🍽️ Food
+Vegan
+Vegetarian
+Pescatarian
+Low Meat
+High Meat
+⚡ Energy
+Electricity
+Natural Gas
+Heating Oil
+AI Recommendation System
+
+EcoTrack integrates Groq's LLaMA 3.3-70B Versatile model to generate personalized sustainability recommendations.
+
+The AI analyzes:
+
+Transportation habits
+Food consumption
+Household energy usage
+
+It provides practical eco-friendly suggestions to help users reduce their carbon footprint.
+
+Application Modules
+Login
+Register
+Dashboard
+Habit Logger
+History
+AI Insights
+Profile
+Screenshots
+
+Add screenshots here.
+
+Login Page
+Dashboard
+Habit Logger
+History
+AI Insights
+Profile
+Future Enhancements
+Edit & Delete Habit Logs
+Carbon Reduction Goals
+Achievement Badges
+Leaderboard
+Mobile Application
+Push Notifications
+Export Reports (PDF/CSV)
+Author
+
+Anshul Rajesh Upganlawar
+
+B.Tech Computer Science Engineering
+SRM University AP
+
+Microsoft Learn Student Ambassador
+
+License
+
+This project is developed for educational purposes as part of a university project.
+
+
+---
+
+## ⭐ One suggestion
+
+Since your project is live, I'd also add **screenshots** near the top of the README. GitHub repositories with screenshots look much more professional and make a stronger impression on recruiters and reviewers.
