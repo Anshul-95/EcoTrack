@@ -1,10 +1,10 @@
-# 🌍 EcoTrack – Personal Carbon AI Footprint Tracker
+#  EcoTrack – Personal Carbon AI Footprint Tracker
 
 EcoTrack is a full-stack AI-powered web application that helps users monitor, analyze, and reduce their daily carbon footprint. The platform allows users to log transportation, food, and household energy activities, calculate carbon emissions, visualize environmental impact through interactive dashboards, and receive AI-powered sustainability recommendations.
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
 🌐 **Frontend:** https://eco-track-theta-ten.vercel.app
 
@@ -12,22 +12,22 @@ EcoTrack is a full-stack AI-powered web application that helps users monitor, an
 
 ---
 
-## 📌 Features
+##  Features
 
-- 🔐 Secure User Authentication using Firebase Authentication
-- 🚗 Track transportation carbon emissions
-- 🍽️ Log food consumption habits
-- ⚡ Record household energy usage
-- 📊 Interactive Dashboard with charts and statistics
-- 📈 Carbon emission history tracking
-- 🤖 AI-powered sustainability recommendations using Groq LLaMA 3.3-70B
-- ☁️ Cloud storage using Firebase Firestore
-- 📱 Responsive modern UI with glassmorphism design
-- 🌐 Cloud deployment using Vercel and Render
+-  Secure User Authentication using Firebase Authentication
+-  Track transportation carbon emissions
+-  Log food consumption habits
+-  Record household energy usage
+-  Interactive Dashboard with charts and statistics
+-  Carbon emission history tracking
+-  AI-powered sustainability recommendations using Groq LLaMA 3.3-70B
+-  Cloud storage using Firebase Firestore
+-  Responsive modern UI with glassmorphism design
+-  Cloud deployment using Vercel and Render
 
 ---
 
-# 🛠️ Tech Stack
+#  Tech Stack
 
 ## Frontend
 
@@ -94,7 +94,7 @@ EcoTrack/
 
 ---
 
-# ⚙️ Installation
+#  Installation
 
 ## Clone Repository
 
@@ -156,7 +156,7 @@ Carbon Calculation Modules
 
 The application calculates carbon emissions based on:
 
-🚗 Transportation
+ Transportation
 Petrol Car
 Diesel Car
 Bike
@@ -165,7 +165,7 @@ Train
 Flight
 Walking
 Cycling
-🍽️ Food
+ Food
 Vegan
 Vegetarian
 Pescatarian
@@ -229,6 +229,3 @@ This project is developed for educational purposes as part of a university proje
 
 ---
 
-## ⭐ One suggestion
-
-Since your project is live, I'd also add **screenshots** near the top of the README. GitHub repositories with screenshots look much more professional and make a stronger impression on recruiters and reviewers.
