@@ -65,34 +65,60 @@ EcoTrack is a full-stack AI-powered web application that helps users monitor, an
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
-
+```text
 EcoTrack/
 │
 ├── backend/
-│ ├── app.py
-│ ├── requirements.txt
-│ └── .env
+│   ├── app.py
+│   ├── requirements.txt
+│   ├── .env
+│   └── venv/
 │
 ├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── context/
-│ │ ├── pages/
-│ │ ├── assets/
-│ │ ├── App.jsx
-│ │ ├── firebase.js
-│ │ └── index.css
-│ │
-│ ├── package.json
-│ └── vite.config.js
+│   ├── public/
+│   │   ├── favicon.svg
+│   │   └── icons.svg
+│   │
+│   ├── src/
+│   │   ├── assets/
+│   │   │   ├── hero.png
+│   │   │   ├── react.svg
+│   │   │   └── vite.svg
+│   │   │
+│   │   ├── components/
+│   │   │   ├── ProtectedRoute.jsx
+│   │   │   └── PublicRoute.jsx
+│   │   │
+│   │   ├── context/
+│   │   │   └── AuthContext.jsx
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── HabitLogger.jsx
+│   │   │   ├── History.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── Profile.jsx
+│   │   │   ├── Register.jsx
+│   │   │   └── Suggestions.jsx
+│   │   │
+│   │   ├── api.js
+│   │   ├── firebase.js
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   ├── index.css
+│   │   └── main.jsx
+│   │
+│   ├── .env
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── vite.config.js
+│   └── index.html
 │
-├── README.md
-└── .gitignore
-
-
----
+├── .gitignore
+└── README.md
+```
 
 #  Installation
 
